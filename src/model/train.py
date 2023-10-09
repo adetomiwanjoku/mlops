@@ -1,5 +1,4 @@
 # Import libraries
-
 import argparse
 import glob
 import os
@@ -7,6 +6,9 @@ import os
 import pandas as pd
 
 from sklearn.linear_model import LogisticRegression
+
+import mlflow
+import mlflow.sklearn
 
 
 # define functions
